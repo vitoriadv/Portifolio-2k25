@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu portfólio</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <img src="img/avatar-perfil.png" alt="avatar da Vitória" class="rounded-circle" width="200" height="200"
+            srcset="">
+        <p class="lead">Eu sou Vitória_</p>
+        <h1>Eu sou estudante do Ensino Médio</h1>
+        <p>Estou no terceiro ano do Ensino Médio na trilha de Exatas pois me identifico mais com essa área e pretendo fazer faculdade de Estética e Cosméticos.</p>
+        <p>Minhas habilidades</p>
+        <div>
+            <p class="badge bg-secondary">Responsabilidade</p>
+            <p class="badge bg-secondary">Proatividade</p>
+            <p class="badge bg-secondary">Autoconfiança</p>
+            <p class="badge bg-secondary">Comprometimento</p>
+        </div>
+    </header>
+    <main class="container mt-5">
+        <h2>Meus projetos</h2>
+        <div class="row">
+            <!-- Projeto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/enem.jpeg" class="card-img-top" alt="Imagem do projeto de Empreendedorismo">
+                    <div class="card-body">
+                        <h5 class="card-title">Preparação para o Enem</h5>
+                        <p class="card-text">O Exame Nacional do Ensino Médio (Enem) é uma prova que avalia o desempenho dos estudantes que concluem o ensino médio. 
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/fantasma.jpeg" class="card-img-top" alt="Imagem do projeto de Biotecnologia">
+                    <div class="card-body">
+                        <h5 class="card-title">Feira de Biotecnologia</h5>
+                        <p class="card-text">Este projeto era para mostrar o que estudamos no nosso etinerário de exatas para os alunos que terá que fazer a escolha, então mostramos o desenvolvimento das plantas.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/braco.jpeg" class="card-img-top" alt="Imagem do projeto de Robótica">
+                    <div class="card-body">
+                        <h5 class="card-title">Projeto de Robótica
+                        </h5>
+                        <p class="card-text">Este projeto com ajuda do meu colega e o meu professor, fizemos um Braço Robótico para apresentar no Café Sociológico de outro professor.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Feira de Empreendedorismo</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O Governo do Paraná preparou uma plataforma de estudos para o Enem para aqueles que quiserem fazer, a plataforma tem as trilhas de Exatas, Humanas, Ciências da Natureza e Linguagens.</p>
+                </div>
+               
+            </div>
+        </div>
+    </div>
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Minha Biblioteca: Uma Webpage Personalizada</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O projeto consiste em mostrar aos alunos sobre o desenvolvimento das plantas em diferentes solos, climas, etc., mas também esse projeto ajudou os alunos do primeiro ano do Ensino Médio para escolher seus etinerários.
+                    </p>
+                
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Minha Biblioteca: Uma Webpage Personalizada</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O projeto foi feito pois meu grupo tinha um trabalho pra fazer e apresentar no Café Sociológico, então em algumas tardes meu grupo com ajuda do professor de Robótica montamos o projeto e programamos e depois apresentamos o trabalho com uma dinâmica.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <i class="bi bi-github"></i>
+            <a href="https://github.com/femascheti">GitHub</a>
+        </div>
+        <p class="my-5 text-center">© Copyright 2024. Produzido por Fernanda Mascheti</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
